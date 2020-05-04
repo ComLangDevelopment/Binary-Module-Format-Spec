@@ -6,7 +6,8 @@ Additionally, the meaning of "MUST", "SHALL", "MUST NOT", "SHALL NOT", "SHOULD",
 
 Files produced in this format should either use the suffix .lso or .lsmod. 
 Files in this format MUST NOT have the filename `$$`, 
-Files of this format, and other formats 
+Files of this format, and other formats may be compiled into a tar archive, optionally compressed using gzip, xzip, bzip, or some other lossless compression format,
+ and given the suffix .lslib. 
 
 ## Module Format
 
